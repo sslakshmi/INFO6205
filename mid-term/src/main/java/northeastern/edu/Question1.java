@@ -67,8 +67,7 @@ public class Question1 {
         ListNode k2 = null;
         System.out.println(q1.areConverging(k1, k2)); // false
     }
-
-    //Time complexity - O(n)
+    
     public boolean areConverging(ListNode n1, ListNode n2) {
         Set<ListNode> nodes = new HashSet<>();
         while (n1 != null) {
